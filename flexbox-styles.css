@@ -1,0 +1,16 @@
+*{
+    box-sizing:border-box;
+}
+main{
+    display:flex;
+}
+section{
+    flex:1;
+}
+section#appetizers{
+    flex:2;
+}
+section#appetizers, section#mains, section#desserts{
+    background-color: gray;
+}
+/*section:nth-of-type(odd)*/
